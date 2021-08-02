@@ -1,0 +1,240 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* margin: 3rem; */
+    width: 901px;
+    margin: auto;
+}
+header {
+    /* outline: red solid 2px; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 1.75rem ;
+    margin-top: 2rem;
+
+
+}
+
+main {
+    /* outline: blue solid 2px; */
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+main section div h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.5rem;
+    color: black;
+}
+main hr {
+    width: 100%;
+    height: 0.75rem;
+    border: none;
+    background: url(../img/hr-img.png);
+    background-repeat: repeat;
+    margin-top: 0;
+    margin-bottom: 3rem;
+}
+main section #print  {
+    display: flex;
+    align-self: flex-end;
+    gap: 0.2rem;
+}
+main section #print p {
+    color: gray;
+    font-size: 0.6rem;
+}
+#second p{
+    text-indent: 2rem;
+    line-height: 1.5rem;
+    font-size: 1.22rem;
+    color:gray;
+}
+#left {
+    display: flex;
+    gap: 0.5rem;
+
+}
+#left div h1 {
+    font-family: 'Yellowtail', cursive;
+    font-size: 2.5rem;
+    margin-bottom: 0;
+}
+#left div p {
+    font-size: 0.75rem;
+    font-family: 'Barlow Condensed', sans-serif;    
+    margin-top: 0;
+    font-stretch: expanded;
+    transform: scaleY(0.8);
+    word-spacing: 0.25rem;
+}
+
+#right {
+    /* width: fit-content; */
+    height: fit-content;
+    margin: 0;
+    padding: 0;
+}
+fieldset {
+    width: 899px;
+    height: 305px;
+    background: url(../img/list-bg.png);
+    margin-bottom: 2.25rem;
+
+}
+main section, main  {
+    width: 100%;
+    margin: 1rem;
+}
+
+#first {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#second {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 2.5rem;
+}
+form {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 450px ;
+    grid-template-areas: "first second";
+    
+    /* justify-content: space-between; */
+}
+#r {
+    
+    grid-area: second;
+    margin-top: 2.4rem;
+}
+#r div {
+    margin-bottom: 0.44rem;
+    outline: none;
+}
+
+#l {
+    grid-area: first;
+    outline: none;
+
+}
+#l {
+    margin-top: 2.4rem;
+    margin-left: 3.6rem;
+
+}
+#l div {
+    outline: none;
+    margin-bottom: 0.44rem;
+
+}
+#last {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 1.5rem;
+    margin-left: 1.7rem;
+    color: gray;
+}
+form div div label {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 1.5rem;
+    color: gray;
+
+}
+form div div input {
+    /* outline: blue 2px solid; */
+    align-self: center;
+    justify-self: end;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+form div div {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+footer {
+    width: 100%;
+}
+footer div  button {
+    width: 11.5rem;
+    align-self: flex-start;
+    height: 3.5rem;
+    border: none;
+    background-color:indianred ;
+    color : white;
+    font-size: 1rem;
+}
+#u {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    margin-bottom: 5rem;
+}
+footer div section {
+    align-self: flex-start;
+}
+footer div section h2 {
+    font-size: 1.5rem;
+    margin-left: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: gray;
+}
+footer div section p {
+    font-size: 1.2rem;
+    color: gray;
+    font-stretch: expanded;
+}
+section , div {
+}
+#right img{
+    padding: 0;
+    margin: 0.00rem;
+}
+#secHr {
+    margin-bottom: 1rem;
+}
+footer div section :nth-child(2) {
+    width: 35rem;
+    /* margin-right: 2.5rem ; */
+    margin-right: 4rem;
+    padding-left: 1.4rem;
+
+}
+#d {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+#t p{
+    text-align: center;
+    color:gray
+}
+#t p:first-child {
+    margin-bottom: 0.5rem;
+}
+#t {
+    margin-bottom: 5rem;
+}
+#first div p {
+    font-family: 'Barlow Condensed', sans-serif;    
+
+}
+#right #pint {
+    margin-right: 0.5rem;
+}
